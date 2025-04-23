@@ -1,0 +1,72 @@
+<!-- HTML -->
+<section class="skills-section">
+  <div class="overlay">
+    <div class="skills-box">
+      <h2>My Skills</h2>
+      <ul>
+        <li><strong>Java:</strong> OOP, Collections, JDBC, Swing</li>
+        <li><strong>Python:</strong> Data handling, ML basics, scripting</li>
+        <li><strong>SQL:</strong> MySQL, CRUD, Joins, Queries</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+  .skills-section {
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .skills-box h2 {
+    font-size: 36px;
+    color: #00e0ff;
+    margin-bottom: 25px;
+  }
+
+  .skills-box ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+  }
+
+  .skills-box li {
+    margin-bottom: 10px;
+  }
+
+  .skills-box strong {
+    color: #ffd700;
+  }
+
+  @media (max-width: 768px) {
+    .skills-box h2 {
+      font-size: 28px;
+    }
+
+    .skills-box ul {
+      font-size: 16px;
+    }
+  }
+</style>
